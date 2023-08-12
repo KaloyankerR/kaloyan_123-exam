@@ -30,7 +30,7 @@ jobs:
         run: npm run test:unit
 
       - name: Display Softuni Username
-        run: echo "Softuni username: kaloyan_123"
+        run: echo "kaloyan_123"
 
   deploy:
     name: Deploy to Production
