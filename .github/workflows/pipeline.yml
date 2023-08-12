@@ -29,8 +29,8 @@ jobs:
       - name: Run Unit Tests
         run: npm run test:unit
 
-      - name: Display GitHub Username
-        run: echo "GitHub username: ${{ github.actor }}"
+      - name: Display Softuni Username
+        run: echo "Softuni username: kaloyan_123"
 
   deploy:
     name: Deploy to Production
